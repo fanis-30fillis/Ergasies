@@ -104,3 +104,11 @@ def sort_dict(dct):
 			cnt_in += 1	
 	# επιστρέφει από τη συνάρτηση
 	return
+
+
+a_list = [10, 12, 14, 14, 16, 28, 28, 30]
+remove_duplicates(a_list)
+sort_list(a_list)
+a_dict = {"a":10, "b":12, "c":14, "d":14, "e":16, "f":28, "g":28, "h":30}
+remove_duplicates_dict(a_dict)
+sort_dict(a_dict)
